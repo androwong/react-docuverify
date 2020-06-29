@@ -1,0 +1,85 @@
+
+.body{
+  flex-direction: column;
+  height: 100%;
+}
+.page-header{
+  height: 95px;
+  background-color: #0070c0;
+}
+.logo-container{
+  line-height: 95px;
+  padding-left: 60px;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  font-family: 'HPSimplified';
+}
+.text-underline{
+  border-bottom: 2px solid #ffffff;
+  font-style: 'italic';
+  font-family: 'HPSimplified-Italic';
+}
+.button-container{
+  justify-content: flex-end;
+  padding-right: 70px;
+  align-items: center;
+  height: 100%;
+}
+.button-login{
+  background-color: #ffc000;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: 'HPSimplified';
+  font-weight: 700;
+  font-size: 1.3rem;
+  border-radius: 8px;
+}
+.button-register{
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'HPSimplified';
+  font-weight: 700;
+  font-size: 1.3rem;
+  border-radius: 4px;
+}
+
+.page-content{
+  height: calc(100% - 95px);
+  background-image: url("/assets/images/bgHomepage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+}
+.content-container{
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background: rgba(0,0,0,0);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 34%, rgba(0,0,0,0.9) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(34%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.9)));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 34%, rgba(0,0,0,0.9) 100%);
+  background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 34%, rgba(0,0,0,0.9) 100%);
+  background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 34%, rgba(0,0,0,0.9) 100%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 34%, rgba(0,0,0,0.9) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+.label-container{
+  color: white;
+  font-family: 'HPSimplified';
+  font-weight: 700;
+  font-size: 5rem;
+  padding-top: 400px;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}

@@ -1,0 +1,16 @@
+.modal-container{
+  background: rgba(255,255,255, 0.9);
+  padding: 50px;
+  border-radius: 8px;
+}
+.model-label-container{
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 30px;
+  font-family: 'HPSimplified';
+  font-size: 1.3rem;
+}
+.margin{
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}

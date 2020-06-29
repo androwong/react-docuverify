@@ -1,0 +1,49 @@
+.filedrop-container{
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: 'HPSimplified';
+}
+.document-type{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2rem;
+  color: #0070c0;
+  font-weight: 700;
+}
+.label-upload-pdf{
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.drop-component-container{
+  background: #0070c0;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.btn-browse-file{
+  background: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+.label-drag-and-drop{
+  color: white;
+  font-size: 1.5rem;
+}
+.label-or{
+  margin-top: 35px !important;
+  margin-bottom: 35px !important;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 100;
+}
